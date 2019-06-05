@@ -1,0 +1,531 @@
+﻿[자바기반 IT콘텐츠개발자 양성과정]
+
+[WIFI]
+501
+중앙정보1969
+
+2018.12.27 ~ 2019.06.21
+   (총120일/960시간)
+
+김병춘
+serbible@nate.com
+010-7445-7474
+
+[네이버 클라우드]
+http://naver.me/Fu7szJSX
+암호: 0402
+
+IP : 
+컴퓨터이름: kang
+
+
+
+[수업시간]
+1교시: 09:50 복습
+2교시: 10:50
+3교시: 11:50
+4교시: 12:50
+12:50 ~ 14:00
+5교시: 14:50
+6교시: 15:50
+7교시: 16:50
+8교시: 17:50 QnA
+
+[과정내용]
+01.직업기초능력5
+02.응용SW기초기술활용9
+03.프로그래밍 언어활용15
+------------------------------------java
+04.데이터베이스구현5
+05.SQL활용5
+06.SQL응용5
+-----------------------------------Oracle/My-SQL
+07.화면 구현10
+-----------------------------------HTML/CSS/JavaScript/jQuery
+08.데이터 입력구현7
+09.서버프로그램구현11
+---------------------------------- JSP/Servlet
+10.요구사항분석5
+11.통합구현7
+12.애플리케이션 테스트 수행5
+13.애플리케이션 베포2
+14.제품 소프트웨어 패키징5
+15.정보시스템6
+-----------------------------------Spring
+16.실무 프로젝트21
+-----------------------------------프로젝트
+
+[Chrome 설치]
+[공유 설정]
+
+[시스템 사양 알기]
+제어판/시스템/시스템 정보
+          시스템 종류: 64bit (연산,데이터 통로)                 
+          RAM : 8GB
+          CPU : Intel i5-4590
+
+
+[java]
+
+[1.Java 다운받기]
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Windows x64	207.22 MB  	jdk-8u191-windows-x64.exe
+
+[2. API 다운받기]
+https://www.oracle.com/technetwork/java/javase/downloads/index.html
+ Java SE Development Kit 8u191 Documentation
+Documentation	89.46 MB  	jdk-8u191-docs-all.zip
+
+
+[3.Eclipse]: 편집기
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2018-12/R/eclipse-inst-win64.exe&mirror_id=1248
+
+C:\Program Files (x86) : 32bit
+C:\Program Files       : 64bit 설치
+
+
+[설치]
+1. 자바 설치 : jdk-8u191-windows-x64.exe
+2. ECLIPSE 설치
+3. API (옵션)
+
+[자바 설치 확인]
+시작/실행/CMD/ java -version
+
+[자바 환경 변수 설정] : 모든 곳에서 사용 가능하게 하는 경로 설정
+제어판/시스템/고급시스템 설정/환경변수
+새로만들기: JAVA_HOME
+            C:\Program Files\Java\jdk1.8.0_191
+Path :    ;%JAVA_HOME%\bin;
+
+[확인]
+시작/실행/cmd/cd..
+              cd\
+              dir/p
+c:>java -version
+c:>md JavaSpace
+c:>dir/p
+c:>cd JavaSpace
+
+c:>javac Hello.java  : 컴파일 단계
+c:>java Hello        : 실행(RUN) 단계
+
+
+[Eclipse 설치]
+선택: Java EE for Developer
+설치 위치  C:\Users\choongang402\eclipse\jee-2018-09
+
+[자바]
+ 운영체제로 태어 났다가, 프로그래밍언어로 전이
+  이식성
+
+[Eclipse]
+workspace : c:\JavaSpace
+환경설정: windows/preferences/General/Workspace: UTF-8  : 한글
+                                     web: HTML, CSS, JSP : UTF-8
+
+
+
+CPU       -  RAM/ROM  -  SSD/Hard
+(Cahche)     Memory
+             (주기억장치) (보조기억장치)
+             static
+             객체생성
+
+cpu = Processor
+
+process : CPU에서 처리를 기다리고 있는 프로그램(Application : App)
+
+이클립스안에서 줄 복사 단축키 (Ctrl+Alt+아래화살표) 사용시 화면이 180도 회전해서 보이는 경우: 
+바탕화면/오른쪽 마우스/그래픽 옵션/바로가기키/사용안함
+ 1010
+ 1010
+-------AND : 모두 전류가 흐를때 흐르는 것으로 판단
+ 1010
+
+
+ 1011   11
+ 1110   14
+--------OR: 어느 한쪽 전류가 흐르면 흐르는 것으로 판단
+ 1111
+
+1011   11
+1110   14
+---------XOR : 어느 한쪽만 전류가 흐르면 흐르것으로 판단
+0101
+
+
+
+
+사전평가 문제
+평가일: 2018.12.13
+
+[1월9일 과제]
+
+1. 교재 256이후 작성
+2. 연습문제
+    13~20 
+    (19,20필수)
+~311페이지 까지
+3. 프로젝트 과제 02_Java(Naver Cloud)
+4. 프로젝트 과제 03_Java(Naver Cloud)
+
+
+[상담: 301호]
+  상담내용: 수업내용,진로
+
+
+
+Ch12 MultiThread
+1. p611 : 작성,주석
+2. 확인학습: 02, 08, 10
+3. 08_Study에 1번만
+
+
+[1.JavaFX 위치]
+   https://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html
+ 
+[2.다운로드]
+javafx_scenebuilder-2_0-windows.msi
+
+
+[3.JavaFX API]
+
+   https://docs.oracle.com/javafx/2/api/index.html
+
+[4.설정]
+  해당프로젝트/ 오른쪽/Build Path /Library/Add External Jars/
+     C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext/jfxrt.jar
+[5.설정]
+   위 Build Path/Library/JRE 선택/Access rule0~/Add/
+     Resolution: Accessible
+     Rule Pattern:  javFX/**
+
+ 
+
+JavaFX 기본 설정 끝
+
+
+  [JavaFX Scene Builder2.0 설치 위치]
+C:\Program Files (x86)\Oracle\JavaFX Scene Builder 2.0/
+
+ [JavaFX]
+C:\Program Files (x86)\Oracle\JavaFX Scene Builder 2.0\JavaFX Scene Builder 2.0.exe
+
+
+
+
+
+
+
+[Oracle DataBase]
+oracle.com
+
+
+https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html
+
+Oracle Database 11g Release 2
+ Microsoft Windows (x64)       File 1, File 2  (2GB)  See All 
+
+[SQL Developers 18.4]
+https://www.oracle.com/technetwork/database/enterprise-edition/downloads/index-092322.html
+Developer 18.4
+Windows 64-bit with JDK 8 included
+
+
+
+
+
+ [네트워크]
+   localhost = 127.0.0.1  : 현재 본인 컴퓨터를 지칭
+
+   호스트 이름 = 컴퓨터 이름 = 서버이름
+
+  - 웹: site 내용
+   http://www.google.com:80/abc/bcd.html
+   http://211.183.9.11:80/abc/bcd.html
+
+   -ftp: 파일 업로드 다운로드
+   ftp://ftp.google.com:21/abc/
+
+   -DB
+   jdbc:oracle:thin:@localhost:1521:orcl
+
+
+
+
+
+
+ DataBase System
+
+ [DataBase Management System]
+
+  oracle
+  MS-SQL
+  My-SQL
+
+ DataBase
+
+ [SQL]
+  ANSI-SQL : 표준 SQL(공통)
+  Oracle : PL/SQL
+  MS-SQL : T-SQL
+
+  [차기]
+   No-SQL
+   MongoDB
+
+  Oracle Driver : ojdbc6_g.jar
+
+
+ SQL> select '드디어 설치 했습니다: 대소문자 구분않함' from dual;
+
+ SQL> select tname from tab;
+
+ C:>sqlplus "/as sysdba"
+
+
+
+cmd
+c:>ipconfig
+    211.183.8.(11)
+
+
+  http://localhost:8080/JavaWebDB/test.jsp
+
+  http://127.0.0.1:8080/JavaWebDB/test.jsp
+
+  http://211.183,8.11:8080/JavaWebDB/test.jsp
+
+
+  http://www.naver.com
+      반응형 web
+  http://m.naver.com
+  Android APP
+
+ w3schools.com
+
+
+[작성]
+당신의 신장은?
+당신의 체중은?
+
+(신장-100)*0.9;
+
+당신체중> 체중 계산결과보다 크면: "적정 몸무게 이상"
+
+
+   1  2  3  4  5
+   6  7  8  9  10
+   11 12 13 14 15
+   16 17 18 19 20
+   21 22 23 24 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [문제5] 
+        col1     col2   col3
+        --------------------
+        10	20	null
+	15	null	null
+	50	70	20
+ 	--------------------
+(1)select sum(col2) from tab1 :::         90
+(2)select sum(col1+col2+col3) from tab1    140(50+70+20)
+(3)select sum(col2+col3) from tab1        90
+(4)sel3ct sum(col2)+sum(col3) from tab1   :: 110 (90+20)
+  
+
+ 집계함수 연산시 : null이 포함된 행은 제외
+                2000+null = > null
+
+
+[JSP API]
+https://docs.oracle.com/javaee/7/api/index.html
+
+http://tomcat.apache.org/tomcat-8.5-doc/servletapi/index.html
+
+http://tomcat.apache.org/tomcat-8.5-doc/jspapi/index.html
+
+http://tomcat.apache.org/tomcat-8.5-doc/elapi/index.html
+
+
+
+
+ Windows :    IIS +              ASP + MS-SQL
+ Linux   :    Apache+            PHP + My-SQL
+ Linux(Java): Apache Tomcat+     JSP + oracle/My-SQL
+
+                     (WAS)
+
+
+* URL Pattern 2가지 *
+
+[디렉토리 패턴]
+http://localhost:8080/Ch02_Servlet/ATest             :A
+http://localhost:8080/Ch02_Servlet/test               :C
+http://localhost:8080/Ch02_Servlet/test/BTest         :B
+http://localhost:8080/Ch02_Servlet/			:D
+http://localhost:8080/Ch02_Servlet/xxx			:D
+http://localhost:8080/Ch02_Servlet/kkk			:D
+
+[확장자 패턴]
+http://localhost:8080/Ch02_Servlet/xxx.do           :E
+http://localhost:8080/Ch02_Servlet/test/a.nhn       : G
+http://localhost:8080/Ch02_Servlet/xyz/a.do         :E
+http://localhost:8080/Ch02_Servlet/xyz.nhn		:G
+http://localhost:8080/Ch02_Servlet/kk.go		:F
+http://localhost:8080/Ch02_Servlet/my/ss.go		:F
+
+
+
+[Spring Framework ]
+http://spring.io
+http://spring.io/tools3/sts/all
+
+C:\Users\choongang402\eclipse\jee-2018-09\eclipse
+
+
+
+
+http:// 211.183.8.11:8080/biz/
+http://www.abc.com:80/
+
+
+
+
+
+ [ : %5B
+
+]: %5D
+
+
+
+http://localhost:8080/sample/ex02Bean?list%5B0%5D.name=hong&list%5B1%5D.name=abc
+
+
+
+
+
+
+----------Part4------------------------------------------------
+create table tbl_reply (
+  rno number(10,0), 
+  bno number(10,0) not null,
+  reply varchar2(1000) not null,
+  replyer varchar2(50) not null, 
+  replyDate date default sysdate, 
+  updateDate date default sysdate
+);
+
+create sequence seq_reply;
+
+alter table tbl_reply add constraint pk_reply primary key (rno);
+
+alter table tbl_reply  add constraint fk_reply_board  
+foreign key (bno)  references  tbl_board (bno); 
+
+create table tbl_reply (
+  rno number(10,0), 
+  bno number(10,0) not null,
+  reply varchar2(1000) not null,
+  replyer varchar2(50) not null, 
+  replyDate date default sysdate, 
+  updateDate date default sysdate
+);
+
+create sequence seq_reply;
+
+alter table tbl_reply add constraint pk_reply primary key (rno);
+
+alter table tbl_reply  add constraint fk_reply_board  
+foreign key (bno)  references  tbl_board (bno); 
+
+-----------------------PART5: AOP&Transaction--------------------------
+
+
+
+----------------------Part6: FileUpload-------------------------------------------------
+create table tbl_attach ( 
+  uuid varchar2(100) not null,
+  uploadPath varchar2(200) not null,
+  fileName varchar2(100) not null, 
+  filetype char(1) default 'I',
+  bno number(10,0)
+);
+
+alter table tbl_attach add constraint pk_attach primary key (uuid); 
+alter table tbl_attach add constraint fk_board_attach foreign key (bno) references tbl_board(bno);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                -- 칠판 ---
+   
+ 1행          서지훈
+ 2행          정홍우	       변상민
+ 3행 민동혁   신창진	주홍섭	      김나연
+ 4행 이강원   김현종	임명재 임동재 남대영      
+
+
+
+
+
+::프로젝트 조 편성::
+1조: 김현종 민동혁 주홍섭 임동재 남대영 이강원
+ 
+2조: 정홍우 서지훈 신창진 김나연 변상민 임명재
+
+  - 한조에 6명씩 2개조 편성 예정
+  - 조장 2명 선출후 
+
+
+
+
+
+serbible
+
+
+
+
+
+
+serbible9@google.com
+
+team0527
+
+
+
+
+
+
+
+
+
+
+
+
